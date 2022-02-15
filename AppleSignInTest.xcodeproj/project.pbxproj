@@ -10,7 +10,6 @@
 		841D8CC227BA62F500E87772 /* View+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841D8CC127BA62F500E87772 /* View+.swift */; };
 		841D8CC427BA736F00E87772 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841D8CC327BA736F00E87772 /* ProfileView.swift */; };
 		841D8CC627BA7A5D00E87772 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841D8CC527BA7A5D00E87772 /* ContentView.swift */; };
-		841D8CC827BA7B2800E87772 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841D8CC727BA7B2800E87772 /* SignInView.swift */; };
 		8487E2A627B6C6800073121B /* AppleSignInTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8487E2A527B6C6800073121B /* AppleSignInTestApp.swift */; };
 		8487E2A827B6C6800073121B /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8487E2A727B6C6800073121B /* SignUpView.swift */; };
 		8487E2AA27B6C6810073121B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8487E2A927B6C6810073121B /* Assets.xcassets */; };
@@ -29,7 +28,6 @@
 		841D8CC127BA62F500E87772 /* View+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+.swift"; sourceTree = "<group>"; };
 		841D8CC327BA736F00E87772 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		841D8CC527BA7A5D00E87772 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		841D8CC727BA7B2800E87772 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		8487E2A227B6C6800073121B /* AppleSignInTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleSignInTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8487E2A527B6C6800073121B /* AppleSignInTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSignInTestApp.swift; sourceTree = "<group>"; };
 		8487E2A727B6C6800073121B /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
@@ -74,7 +72,6 @@
 				8487E2A727B6C6800073121B /* SignUpView.swift */,
 				841D8CC327BA736F00E87772 /* ProfileView.swift */,
 				841D8CC527BA7A5D00E87772 /* ContentView.swift */,
-				841D8CC727BA7B2800E87772 /* SignInView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -216,7 +213,6 @@
 				8487E2A827B6C6800073121B /* SignUpView.swift in Sources */,
 				841D8CC427BA736F00E87772 /* ProfileView.swift in Sources */,
 				8487E2C227B6D8F70073121B /* GradientText.swift in Sources */,
-				841D8CC827BA7B2800E87772 /* SignInView.swift in Sources */,
 				8487E2B527B6C6DE0073121B /* SignInWithAppleButton.swift in Sources */,
 				841D8CC227BA62F500E87772 /* View+.swift in Sources */,
 				8487E2A627B6C6800073121B /* AppleSignInTestApp.swift in Sources */,

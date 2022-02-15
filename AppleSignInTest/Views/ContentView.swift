@@ -18,8 +18,6 @@ struct ContentView: View {
                 .scaledToFit()
                 .offset(x: 40,y: -200)
 
-            Logo()
-
             SignUpView()
         }
     }
@@ -28,14 +26,5 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
-    }
-}
-
-struct Logo: View {
-    var body: some View {
-        VStack {
-            Image("FantaCalcio")
-            Spacer()
-        }
     }
 }
