@@ -29,9 +29,9 @@ struct TextFieldIcon: View {
             }
             
             VisualEffectBlur(blurStyle: .regular)
-                Color("tertiaryBackground")
+            Color.blue
                     .cornerRadius(12)
-                    .opacity(0.8)
+                    .opacity(0.3)
                     .blur(radius: 3.0)
             
         }
@@ -42,7 +42,7 @@ struct TextFieldIcon: View {
                     .stroke(Color.white,lineWidth: 1)
                     .blendMode(.overlay)
                 Image(systemName: Icon)
-                    .gradientForeground(colors: [Color("pink-gradient-1"),Color("pink-gradient-2")])
+                    .gradientForeground(colors: [Color.cyan,Color.blue])
                     .font(.system(size: 17, weight: .medium))
             }
         )

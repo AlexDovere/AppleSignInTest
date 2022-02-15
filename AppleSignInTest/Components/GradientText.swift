@@ -14,7 +14,7 @@ struct GradientText: View {
         Text(text)
             .font(.footnote)
             .bold()
-            .gradientForeground(colors: [Color("pink-gradient-1"),Color("pink-gradient-2")])
+            .gradientForeground(colors: [Color.cyan,Color.blue])
     }
 }
 
