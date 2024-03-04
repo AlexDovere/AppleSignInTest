@@ -18,7 +18,6 @@
 		8487E2B727B6D2990073121B /* SignInWithAppleObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8487E2B627B6D2990073121B /* SignInWithAppleObject.swift */; };
 		8487E2BA27B6D4530073121B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 8487E2B927B6D4530073121B /* FirebaseAuth */; };
 		8487E2BC27B6D4530073121B /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 8487E2BB27B6D4530073121B /* FirebaseMessaging */; };
-		8487E2BE27B6D4CE0073121B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8487E2BD27B6D4CE0073121B /* GoogleService-Info.plist */; };
 		8487E2C227B6D8F70073121B /* GradientText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8487E2C127B6D8F70073121B /* GradientText.swift */; };
 		8487E2C427B6D9130073121B /* TextFieldIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8487E2C327B6D9130073121B /* TextFieldIcon.swift */; };
 		8487E2C627B6D9370073121B /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8487E2C527B6D9370073121B /* VisualEffectBlur.swift */; };
@@ -36,7 +35,6 @@
 		8487E2B327B6C6950073121B /* AppleSignInTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppleSignInTest.entitlements; sourceTree = "<group>"; };
 		8487E2B427B6C6DE0073121B /* SignInWithAppleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleButton.swift; sourceTree = "<group>"; };
 		8487E2B627B6D2990073121B /* SignInWithAppleObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleObject.swift; sourceTree = "<group>"; };
-		8487E2BD27B6D4CE0073121B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8487E2C127B6D8F70073121B /* GradientText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientText.swift; sourceTree = "<group>"; };
 		8487E2C327B6D9130073121B /* TextFieldIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldIcon.swift; sourceTree = "<group>"; };
 		8487E2C527B6D9370073121B /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
@@ -118,7 +116,6 @@
 				841D8CBF27BA62D600E87772 /* Helper */,
 				8487E2B327B6C6950073121B /* AppleSignInTest.entitlements */,
 				8487E2A927B6C6810073121B /* Assets.xcassets */,
-				8487E2BD27B6D4CE0073121B /* GoogleService-Info.plist */,
 				8487E2AB27B6C6810073121B /* Preview Content */,
 			);
 			path = AppleSignInTest;
@@ -199,7 +196,6 @@
 			files = (
 				8487E2AD27B6C6810073121B /* Preview Assets.xcassets in Resources */,
 				8487E2AA27B6C6810073121B /* Assets.xcassets in Resources */,
-				8487E2BE27B6D4CE0073121B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

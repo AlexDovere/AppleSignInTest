@@ -16,7 +16,7 @@ struct SignUpView: View {
     @State private var editingPassword = false
     @State private var showProfile = false
     @State private var signInMode = false
-    @State private var signInWithAppleObject = SignInWithAppleObject()
+    @State private var signInWithAppleObject = SignInWithAppleButtonCoordinator()
     
     var body: some View {
         
